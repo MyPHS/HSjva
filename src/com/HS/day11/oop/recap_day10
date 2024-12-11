@@ -1,0 +1,31 @@
+프로그래밍 언어 : 자바
+자바의 특징 : 객체지향(개발방법론) vs 절차지향
+객체지향 프로그래밍 : 클래스와 객체
+객체지향 원칙 : 캡슐화 상속 (추상화) 다형성 -> 캡~상추다
+1. 캡슐화
+- 클래스의 등장배경과 함께 설명
+- private, getter/setter - private에는 일반적인 방법으로 접근이 불가하므로 생성자를 만들고 후에
+	반환타입이 void, 매개변수가 있는 setter로 입력을 받고 getter로 private에 접근해 출력한다.
+
+2. 상속
+- extends, super, super()
+- protected
+
+3. 다형성
+- 업캐스팅/다운캐스팅, instanceof 연산자
+예시 :
+	public class Sonata extends Car{}
+	Sonata sonata = new.Sonata();
+	Car car = new Car();
+	Car car = new Sonata();
+- 오버라이딩, 오버로딩
+	public sub extends Super{
+	super draw();
+}
+	public void draw() {
+		(자료형) = "";
+	}
+	Super.s = new sub();
+	s.draw();
+	원래대로라면 Super에서 상속받은 sub 메소드의 super draw();가 실행되어야 하나,
+	동적바인딩에 
