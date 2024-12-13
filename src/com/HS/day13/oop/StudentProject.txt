@@ -1,0 +1,16 @@
+StudentApp -> 나 혼자서 다 한다.
+1. 메뉴 출력, -> StudentView > mainMenu
+2. 데이터 입력 받고 ->  StudentView > inputStudentData
+입력받은 데이터를 저장, -> StudentManage > insertStudent
+3. 저장된 데이터를 불러와서 -> StudentManage > getStudents
+출력하고, -> StudentView > printStudentData
+4. 메시지 출력 -> StudentView > displayMessage
+
+StudentController
+
+1. 메뉴 출력 
+StudentView view = new StudentView();
+   view.mainMenu();
+2. 메시지 출력
+StudentView view = new StudentView();
+  view.displayMessage("프로그램~~");
